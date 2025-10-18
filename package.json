@@ -1,0 +1,20 @@
+{
+  "name": "n8n-nodes-custom-libphonenumber",
+  "version": "1.0.0",
+  "description": "LibPhoneNumber",
+  "author": "Jonas Ribeiro Silva",
+  "license": "MIT",
+  "main": "dist/nodes/CustomLibphonenumber/CustomLibphonenumber.node.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/ssh2": "^1.15.5",
+    "n8n-core": "^1.0.0",
+    "n8n-workflow": "^1.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "libphonenumber-js": "^1.12.24"
+  }
+}
